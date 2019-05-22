@@ -26,7 +26,6 @@ class RecordSoundsViewController: UIViewController,AVAudioRecorderDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("will appear work")
     }
 
     @IBAction func recordAudio(_ sender: Any) {
